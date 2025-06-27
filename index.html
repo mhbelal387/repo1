@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>আয়ান | ডিজিটাল ভিজিটিং কার্ড</title>
+
+  <!-- Font Awesome CDN for Social Icons -->
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="theme.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #89e7ff;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      background: #033a4d;
+      (240, 167, 219);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgb(175, 236, 249);
+    }
+
+    h2 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 24px;
+      color: #02e2fb;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #04fae6;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: #0affe2;
+      font-size: 30px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #fd0083;
+      transform: scale(1.3);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #000601;
+    }
+  </style>
+  <style>
+    body {
+      background: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .social-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .social-button {
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(250, 248, 248);
+      border-radius: 40px;
+      padding: 10px 20px;
+      width: 300px;
+      background: transparent font-size: 39px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .social-button:hover {
+      background: #f0f0f0;
+      transform: scale(1.03);
+    }
+
+    .icon-circle {
+      width: 40px;
+      height: 40px;
+      background: #a0d8d3;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      border: 3px solid rgb(175, 246, 251);
+    }
+
+    .icon-circle i {
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <!-- ✅ তুমি এখানে নিজের ছবি লিংক বসিয়ে নিতে পারো -->
+    <img src="im1.jpg" alt="Ayan's Photo" class="avatar">
+
+    <h2> Mohammad Belal</h2>
+    <p>Welcome to my profile</p>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1AuCyVyPrq/" class="social-button">
+        <div class="icon-circle" style="background:#028bbd">
+
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        Facebook
+      </a>
+      <a href="#" class="social-button">
+        <div class="icon-circle" style="background: rgb(6, 42, 54);">
+          <i class="fab fa-twitter"></i>
+        </div>
+        Twitter
+      </a>
+      <a href="#" class="social-button">
+        <div class="icon-circle" style="background: #fc528b;">
+          <i class="fab fa-instagram"></i>
+        </div>
+        Instagram
+      </a>
+      <a href="#" class="social-button">
+        <div class="icon-circle" style="background: #4fd3fb;">
+          <i class="fab fa-telegram"></i>
+        </div>
+        Telegram
+      </a>
+    </div>
+
+    <footer>
+      Design by Belal
+    </footer>
+  </div>
+
+</body>
+
+</html>
